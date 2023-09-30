@@ -29,7 +29,7 @@ export function decodePassphrase(base64String: string) {
 }
 
 export function generateRoomId(): string {
-  return `${randomString(4)}-${randomString(4)}`;
+  return "hack-rtc2";
 }
 
 export function randomString(length: number): string {
